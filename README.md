@@ -32,7 +32,7 @@ This project is a secure login and registration system built with **Node.js** an
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/MustafaMiyaji/Node-pass-login-registration-page.git
-   cd Node.js-with-passport-authentication-project
+   cd Node-pass-login-registration-page
    ```
 
 2. **Install Dependencies**
