@@ -37,7 +37,7 @@ This project is a secure login and registration system built with **Node.js** an
 
 2. **Install Dependencies**
    ```bash
-   npm install
+   npm install express bcryptjs passport passport-local ejs express-ejs-layouts mongoose connect-flash express-session
    ```
 
 3. **Set Up Environment Variables**
