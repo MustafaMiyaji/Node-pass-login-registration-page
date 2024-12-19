@@ -31,8 +31,8 @@ This project is a secure login and registration system built with **Node.js** an
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/MustafaMiyaji/Node-pass-login-registration-page.git
+   cd Node.js-with-passport-authentication-project
    ```
 
 2. **Install Dependencies**
@@ -74,22 +74,27 @@ This project is a secure login and registration system built with **Node.js** an
 ```
 project-folder/
 ├── config/
-│   ├── passport.js   # Passport strategy configuration
+│   ├── auth.js        # Authentication middleware
+│   ├── keys.js        # Key management
+│   ├── passport.js    # Passport strategy configuration
 ├── models/
-│   ├── User.js       # User schema definition
+│   ├── User.js        # User schema definition
 ├── routes/
-│   ├── index.js      # Public routes
-│   ├── users.js      # Authentication routes
+│   ├── index.js       # Public routes
+│   ├── users.js       # Authentication routes
 ├── views/
-│   ├── layouts/      # Layout templates
-│   ├── partials/     # Reusable partials
-│   ├── login.ejs     # Login page
-│   ├── register.ejs  # Registration page
-│   ├── dashboard.ejs # User dashboard
-├── .env              # Environment variables
-├── app.js            # Main application file
-├── package.json      # Project metadata
-└── README.md         # Project documentation
+│   ├── partials/      # Reusable partials
+│   │   ├── messages.ejs # Flash messages template
+│   ├── dashboard.ejs  # User dashboard
+│   ├── layout.ejs     # Main layout template
+│   ├── login.ejs      # Login page
+│   ├── register.ejs   # Registration page
+│   ├── welcome.ejs    # Welcome page
+├── .env               # Environment variables
+├── app.js             # Main application file
+├── package.json       # Project metadata
+├── package-lock.json  # Dependency lock file
+├── README.md          # Project documentation
 ```
 
 ## Libraries Used
@@ -111,11 +116,7 @@ project-folder/
 - Implement role-based access control.
 - Integrate OAuth for social login options.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
 
 ### Contact
-For any issues or contributions, feel free to open a pull request or contact me at **faridamiyaji22@gmail.com**.
+For any issues or contributions, feel free to open a pull request or contact me at **Mustafamiyaji32@gmail.com**.
+
